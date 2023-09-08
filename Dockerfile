@@ -1,9 +1,5 @@
 FROM ubuntu:18.04
 
-# && apt-get install -y \
-#    python3.6 \
-#    python3-pip
-
 RUN apt-get update && apt-get install -y wget && apt-get clean
 RUN apt-get install -y vim
 
